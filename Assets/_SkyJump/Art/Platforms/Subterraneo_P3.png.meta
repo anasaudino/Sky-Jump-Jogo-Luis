@@ -1,0 +1,678 @@
+fileFormatVersion: 2
+guid: 2dbd4a513d10b894c9d60b1300337d6d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6927599761408176456
+    second: Subterraneo_P3_0
+  - first:
+      213: 1415136989055904968
+    second: Subterraneo_P3_1
+  - first:
+      213: 6999414102114949191
+    second: Subterraneo_P3_2
+  - first:
+      213: 241097526625269222
+    second: Subterraneo_P3_3
+  - first:
+      213: -5327725036067493568
+    second: Subterraneo_P3_4
+  - first:
+      213: 7428948761424224035
+    second: Subterraneo_P3_5
+  - first:
+      213: 2033598400627287536
+    second: Subterraneo_P3_6
+  - first:
+      213: 7023527668012705448
+    second: Subterraneo_P3_7
+  - first:
+      213: 135790243390711024
+    second: Subterraneo_P3_8
+  - first:
+      213: 204976233203122536
+    second: Subterraneo_P3_9
+  - first:
+      213: 8495542851029288185
+    second: Subterraneo_P3_10
+  - first:
+      213: 1683383743448806038
+    second: Subterraneo_P3_11
+  - first:
+      213: 8556223939969093496
+    second: Subterraneo_P3_12
+  - first:
+      213: -6602733880596698671
+    second: Subterraneo_P3_13
+  - first:
+      213: 5874432670476090260
+    second: Subterraneo_P3_14
+  - first:
+      213: 1214414844099302473
+    second: Subterraneo_P3_15
+  - first:
+      213: -6592477654361382717
+    second: Subterraneo_P3_16
+  - first:
+      213: -9158940982172622970
+    second: Subterraneo_P3_17
+  - first:
+      213: 6304867158900488741
+    second: Subterraneo_P3_18
+  - first:
+      213: 2777047810380875868
+    second: Subterraneo_P3_19
+  - first:
+      213: 563804775654468489
+    second: Subterraneo_P3_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Subterraneo_P3_0
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 18
+        width: 1960
+        height: 687
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be4f2398b83cdf90800000000000000
+      internalID: -6927599761408176456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Subterraneo_P3_1
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 660
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc6135089393a310800000000000000
+      internalID: 1415136989055904968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Subterraneo_P3_2
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 673
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748db689a0ae22160800000000000000
+      internalID: 6999414102114949191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Subterraneo_P3_3
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 697
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e579be4cec885300800000000000000
+      internalID: 241097526625269222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Subterraneo_P3_4
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 665
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049ed34ae4e1016b0800000000000000
+      internalID: -5327725036067493568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Subterraneo_P3_5
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 669
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32fd44bc98de81760800000000000000
+      internalID: 7428948761424224035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Subterraneo_P3_6
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 661
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5213d88fac83c10800000000000000
+      internalID: 2033598400627287536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Subterraneo_P3_7
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 658
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6660aa335987160800000000000000
+      internalID: 7023527668012705448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Subterraneo_P3_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 455
+        width: 291
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f46445c18c62e100800000000000000
+      internalID: 135790243390711024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Subterraneo_P3_9
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 550
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861487f4cc838d200800000000000000
+      internalID: 204976233203122536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Subterraneo_P3_10
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 316
+        width: 351
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4c5b1363b36e570800000000000000
+      internalID: 8495542851029288185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Subterraneo_P3_11
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 451
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692fee088949c5710800000000000000
+      internalID: 1683383743448806038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Subterraneo_P3_12
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 425
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f0d803750ddb670800000000000000
+      internalID: 8556223939969093496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Subterraneo_P3_13
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 419
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9e894b4806e54a0800000000000000
+      internalID: -6602733880596698671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Subterraneo_P3_14
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 264
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b3da4c36d268150800000000000000
+      internalID: 5874432670476090260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Subterraneo_P3_15
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 45
+        width: 19
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9441080ddd77ad010800000000000000
+      internalID: 1214414844099302473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Subterraneo_P3_16
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0e6167080d284a0800000000000000
+      internalID: -6592477654361382717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Subterraneo_P3_17
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 47
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f55dee3b7e4e080800000000000000
+      internalID: -9158940982172622970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Subterraneo_P3_18
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 45
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a3a42c6436f7750800000000000000
+      internalID: 6304867158900488741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Subterraneo_P3_19
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 47
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c584706254e0a8620800000000000000
+      internalID: 2777047810380875868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Subterraneo_P3_20
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 21
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98bad8fc47903d700800000000000000
+      internalID: 563804775654468489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Subterraneo_P3_0: -6927599761408176456
+      Subterraneo_P3_1: 1415136989055904968
+      Subterraneo_P3_10: 8495542851029288185
+      Subterraneo_P3_11: 1683383743448806038
+      Subterraneo_P3_12: 8556223939969093496
+      Subterraneo_P3_13: -6602733880596698671
+      Subterraneo_P3_14: 5874432670476090260
+      Subterraneo_P3_15: 1214414844099302473
+      Subterraneo_P3_16: -6592477654361382717
+      Subterraneo_P3_17: -9158940982172622970
+      Subterraneo_P3_18: 6304867158900488741
+      Subterraneo_P3_19: 2777047810380875868
+      Subterraneo_P3_2: 6999414102114949191
+      Subterraneo_P3_20: 563804775654468489
+      Subterraneo_P3_3: 241097526625269222
+      Subterraneo_P3_4: -5327725036067493568
+      Subterraneo_P3_5: 7428948761424224035
+      Subterraneo_P3_6: 2033598400627287536
+      Subterraneo_P3_7: 7023527668012705448
+      Subterraneo_P3_8: 135790243390711024
+      Subterraneo_P3_9: 204976233203122536
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

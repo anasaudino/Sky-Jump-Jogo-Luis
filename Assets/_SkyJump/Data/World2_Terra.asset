@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6efe70aeffa7794b969c7b8aa123d92, type: 3}
+  m_Name: World2_Terra
+  m_EditorClassIdentifier: Assembly-CSharp::SkyJump.World.WorldData
+  displayName: TERRA
+  themeColor: {r: 0.55, g: 1, b: 0.45, a: 1}
+  backgroundVertical: {fileID: 21300000, guid: b6098e39299e9e94c80754b7d039bd18, type: 3}
+  backgroundHorizontal: {fileID: 21300000, guid: 7297a191559e7f2489f9aacb7527269d, type: 3}
+  length: 65
+  completionBonus: 250
+  platformSkins:
+  - sprite: {fileID: 21300000, guid: 54252195e8cbd4c499b931f4b9bf01a6, type: 3}
+    visibleRect:
+      serializedVersion: 2
+      x: 0.17127071
+      y: 0.10773481
+      width: 0.65791893
+      height: 0.7638122
+    surfaceInset: 0.16
+  - sprite: {fileID: 21300000, guid: 85755729161abb24c8f41b369d972a24, type: 3}
+    visibleRect:
+      serializedVersion: 2
+      x: 0.16628176
+      y: 0.072916664
+      width: 0.66512704
+      height: 0.8819444
+    surfaceInset: 0.16
+  - sprite: {fileID: 21300000, guid: 3b730422027a8be42ae7ec7d44a6490d, type: 3}
+    visibleRect:
+      serializedVersion: 2
+      x: 0.13812155
+      y: 0.044198897
+      width: 0.7237569
+      height: 0.93922657
+    surfaceInset: 0.16
+  platformWidth: 2.6
+  gapStart: {x: 1.6, y: 2.1}
+  gapEnd: {x: 1.8, y: 2.4}
+  movingChanceStart: 0.25
+  movingChanceEnd: 0.45
+  moveSpeed: {x: 1, y: 1.7}
+  maxMoveRange: 1.8
+  crumbleChanceStart: 0
+  crumbleChanceEnd: 0

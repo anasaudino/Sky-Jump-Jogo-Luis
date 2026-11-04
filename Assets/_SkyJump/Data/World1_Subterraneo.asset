@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6efe70aeffa7794b969c7b8aa123d92, type: 3}
+  m_Name: World1_Subterraneo
+  m_EditorClassIdentifier: Assembly-CSharp::SkyJump.World.WorldData
+  displayName: "SUBTERR\xC2NEO"
+  themeColor: {r: 0.78, g: 0.6, b: 1, a: 1}
+  backgroundVertical: {fileID: 21300000, guid: 3ba2557074b1d734eb2a4cab4c076e55, type: 3}
+  backgroundHorizontal: {fileID: 21300000, guid: b1ce2d4c01d698c478c638a3d3eb0ecd, type: 3}
+  length: 55
+  completionBonus: 250
+  platformSkins:
+  - sprite: {fileID: 21300000, guid: 05bc34a282bd84249b593e1ed426ae27, type: 3}
+    visibleRect:
+      serializedVersion: 2
+      x: 0.09760589
+      y: 0.09116022
+      width: 0.803407
+      height: 0.8024862
+    surfaceInset: 0.12
+  - sprite: {fileID: 21300000, guid: c7c6f28a80446124c9524fd33526742a, type: 3}
+    visibleRect:
+      serializedVersion: 2
+      x: 0.10635359
+      y: 0.18370166
+      width: 0.7813076
+      height: 0.5856353
+    surfaceInset: 0.12
+  - sprite: {fileID: 21300000, guid: 2dbd4a513d10b894c9d60b1300337d6d, type: 3}
+    visibleRect:
+      serializedVersion: 2
+      x: 0.18370166
+      y: 0.10359116
+      width: 0.62799263
+      height: 0.7790055
+    surfaceInset: 0.12
+  platformWidth: 2.8
+  gapStart: {x: 1.3, y: 1.7}
+  gapEnd: {x: 1.5, y: 2}
+  movingChanceStart: 0
+  movingChanceEnd: 0
+  moveSpeed: {x: 0.8, y: 1.2}
+  maxMoveRange: 1.2
+  crumbleChanceStart: 0
+  crumbleChanceEnd: 0

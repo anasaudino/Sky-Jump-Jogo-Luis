@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6efe70aeffa7794b969c7b8aa123d92, type: 3}
+  m_Name: World3_Ceu
+  m_EditorClassIdentifier: Assembly-CSharp::SkyJump.World.WorldData
+  displayName: "C\xC9U"
+  themeColor: {r: 0.6, g: 0.88, b: 1, a: 1}
+  backgroundVertical: {fileID: 21300000, guid: f7c9e5c42220e1e44abd9a3fd8e21054, type: 3}
+  backgroundHorizontal: {fileID: 21300000, guid: 1b5c6c07e40f5034892b94709ff88b23, type: 3}
+  length: 70
+  completionBonus: 250
+  platformSkins:
+  - sprite: {fileID: 21300000, guid: 207a5960b1e172a47907fa1d339f37ae, type: 3}
+    visibleRect:
+      serializedVersion: 2
+      x: 0.007204611
+      y: 0.12693499
+      width: 0.98270893
+      height: 0.71826625
+    surfaceInset: 0.22
+  - sprite: {fileID: 21300000, guid: c630c4865cc4b6c4db5119913d612046, type: 3}
+    visibleRect:
+      serializedVersion: 2
+      x: 0.0075872536
+      y: 0.17320262
+      width: 0.9347496
+      height: 0.8039215
+    surfaceInset: 0.22
+  - sprite: {fileID: 21300000, guid: 029638d047affaa44b531128f4d6d6dd, type: 3}
+    visibleRect:
+      serializedVersion: 2
+      x: 0.0044247787
+      y: 0.15762274
+      width: 0.9469027
+      height: 0.5426356
+    surfaceInset: 0.22
+  platformWidth: 2.4
+  gapStart: {x: 1.9, y: 2.4}
+  gapEnd: {x: 2.1, y: 2.6}
+  movingChanceStart: 0.45
+  movingChanceEnd: 0.6
+  moveSpeed: {x: 1.6, y: 2.4}
+  maxMoveRange: 2.2
+  crumbleChanceStart: 0.1
+  crumbleChanceEnd: 0.18

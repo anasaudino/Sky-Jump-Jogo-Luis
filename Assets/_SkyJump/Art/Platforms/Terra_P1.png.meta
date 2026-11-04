@@ -1,0 +1,2004 @@
+fileFormatVersion: 2
+guid: 54252195e8cbd4c499b931f4b9bf01a6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 926582920189331189
+    second: Terra_P1_0
+  - first:
+      213: -1115430058754287818
+    second: Terra_P1_1
+  - first:
+      213: -4349921857443965581
+    second: Terra_P1_2
+  - first:
+      213: -2116175849045598077
+    second: Terra_P1_3
+  - first:
+      213: -4512766600558971387
+    second: Terra_P1_4
+  - first:
+      213: 6270280745620241281
+    second: Terra_P1_5
+  - first:
+      213: -1740632890873255553
+    second: Terra_P1_6
+  - first:
+      213: 5240532527326948855
+    second: Terra_P1_7
+  - first:
+      213: -875409075006767208
+    second: Terra_P1_8
+  - first:
+      213: -462220843827365917
+    second: Terra_P1_9
+  - first:
+      213: 2424956420840959531
+    second: Terra_P1_10
+  - first:
+      213: 6507992310634775877
+    second: Terra_P1_11
+  - first:
+      213: -7591938553149176931
+    second: Terra_P1_12
+  - first:
+      213: -8763954206219257112
+    second: Terra_P1_13
+  - first:
+      213: 5176208811702798115
+    second: Terra_P1_14
+  - first:
+      213: -8356374451741323954
+    second: Terra_P1_15
+  - first:
+      213: -3738262262356351573
+    second: Terra_P1_16
+  - first:
+      213: 7973813907581249196
+    second: Terra_P1_17
+  - first:
+      213: -1903325823438684946
+    second: Terra_P1_18
+  - first:
+      213: 6883066667499945675
+    second: Terra_P1_19
+  - first:
+      213: 284349296038349843
+    second: Terra_P1_20
+  - first:
+      213: 2896320068359922050
+    second: Terra_P1_21
+  - first:
+      213: 1088132609214418546
+    second: Terra_P1_22
+  - first:
+      213: 3833806655109918498
+    second: Terra_P1_23
+  - first:
+      213: 4174150581430040474
+    second: Terra_P1_24
+  - first:
+      213: 7968324280800492329
+    second: Terra_P1_25
+  - first:
+      213: 316963377084361003
+    second: Terra_P1_26
+  - first:
+      213: 4588464063473997766
+    second: Terra_P1_27
+  - first:
+      213: -6796286341897749552
+    second: Terra_P1_28
+  - first:
+      213: -7149399119328482386
+    second: Terra_P1_29
+  - first:
+      213: 3713881193458799513
+    second: Terra_P1_30
+  - first:
+      213: 2954307196762074691
+    second: Terra_P1_31
+  - first:
+      213: 2262519421717808626
+    second: Terra_P1_32
+  - first:
+      213: 598937409456634626
+    second: Terra_P1_33
+  - first:
+      213: -7341873006860332850
+    second: Terra_P1_34
+  - first:
+      213: 7335037614658774603
+    second: Terra_P1_35
+  - first:
+      213: 3625015321677366484
+    second: Terra_P1_36
+  - first:
+      213: -5475231677976334890
+    second: Terra_P1_37
+  - first:
+      213: -2715473005743387990
+    second: Terra_P1_38
+  - first:
+      213: -7744563638162407767
+    second: Terra_P1_39
+  - first:
+      213: 1342000495110586450
+    second: Terra_P1_40
+  - first:
+      213: 7463254496413748148
+    second: Terra_P1_41
+  - first:
+      213: -587304810170350599
+    second: Terra_P1_42
+  - first:
+      213: -2573015179301143039
+    second: Terra_P1_43
+  - first:
+      213: 405791711624257043
+    second: Terra_P1_44
+  - first:
+      213: -7425599597323573947
+    second: Terra_P1_45
+  - first:
+      213: -7811064116653213339
+    second: Terra_P1_46
+  - first:
+      213: 1620029640777744546
+    second: Terra_P1_47
+  - first:
+      213: 7216160951302010571
+    second: Terra_P1_48
+  - first:
+      213: -8949514922210738719
+    second: Terra_P1_49
+  - first:
+      213: 6879641855161882394
+    second: Terra_P1_50
+  - first:
+      213: -5243780388909749624
+    second: Terra_P1_51
+  - first:
+      213: -4831890755108720375
+    second: Terra_P1_52
+  - first:
+      213: -4999337445613091829
+    second: Terra_P1_53
+  - first:
+      213: -1444889367991445716
+    second: Terra_P1_54
+  - first:
+      213: 717804861337898713
+    second: Terra_P1_55
+  - first:
+      213: 5538704410858880472
+    second: Terra_P1_56
+  - first:
+      213: -1083862290982308727
+    second: Terra_P1_57
+  - first:
+      213: 7296811769103551452
+    second: Terra_P1_58
+  - first:
+      213: 5534816780439651169
+    second: Terra_P1_59
+  - first:
+      213: -773815785528220644
+    second: Terra_P1_60
+  - first:
+      213: -8837998299858436143
+    second: Terra_P1_61
+  - first:
+      213: -2806526668075240920
+    second: Terra_P1_62
+  - first:
+      213: -4121018906936606027
+    second: Terra_P1_63
+  - first:
+      213: -8522268303696556857
+    second: Terra_P1_64
+  - first:
+      213: 4107694448535841185
+    second: Terra_P1_65
+  - first:
+      213: -6791614824038724870
+    second: Terra_P1_66
+  - first:
+      213: -958204679466503797
+    second: Terra_P1_67
+  - first:
+      213: 4378048132486768838
+    second: Terra_P1_68
+  - first:
+      213: -938666266631417382
+    second: Terra_P1_69
+  - first:
+      213: -1127725509875887486
+    second: Terra_P1_70
+  - first:
+      213: -383678130190745349
+    second: Terra_P1_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Terra_P1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 327
+        height: 685
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f644d4b142ebdc00800000000000000
+      internalID: 926582920189331189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 0
+        width: 1789
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637582875423580f0800000000000000
+      internalID: -1115430058754287818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_2
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 691
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37558561e19f1a3c0800000000000000
+      internalID: -4349921857443965581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_3
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 647
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380606bf645d1a2e0800000000000000
+      internalID: -2116175849045598077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_4
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 683
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5067f6bbfae6f51c0800000000000000
+      internalID: -4512766600558971387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_5
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 683
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b7aa4ed13840750800000000000000
+      internalID: 6270280745620241281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_6
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 691
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f796327ab9708d7e0800000000000000
+      internalID: -1740632890873255553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_7
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 683
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fde33d619c1ab840800000000000000
+      internalID: 5240532527326948855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_8
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 681
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f711b951ce9d3f0800000000000000
+      internalID: -875409075006767208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_9
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 681
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e773eb679cd599f0800000000000000
+      internalID: -462220843827365917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_10
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 682
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e270c440d27a120800000000000000
+      internalID: 2424956420840959531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_11
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 690
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5450c549688015a50800000000000000
+      internalID: 6507992310634775877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_12
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 691
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9343f61c1404a690800000000000000
+      internalID: -7591938553149176931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_13
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 689
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eab286351e206680800000000000000
+      internalID: -8763954206219257112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_14
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 678
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327cac05d7695d740800000000000000
+      internalID: 5176208811702798115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_15
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 689
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d0fc9c5b1380c80800000000000000
+      internalID: -8356374451741323954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_16
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 692
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba5600f47460f1cc0800000000000000
+      internalID: -3738262262356351573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_17
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 616
+        width: 45
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6237a708da8ae60800000000000000
+      internalID: 7973813907581249196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_18
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 602
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eecfb127f370695e0800000000000000
+      internalID: -1903325823438684946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_19
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 677
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce7aa18aa0958f50800000000000000
+      internalID: 6883066667499945675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_20
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 657
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c8f7e9d2632f300800000000000000
+      internalID: 284349296038349843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_21
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 659
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281ad6eb1cbc13820800000000000000
+      internalID: 2896320068359922050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_22
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 677
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e8eb8c7d2d91f00800000000000000
+      internalID: 1088132609214418546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_23
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 657
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fea5727da643530800000000000000
+      internalID: 3833806655109918498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_24
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 675
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97b02596df8de930800000000000000
+      internalID: 4174150581430040474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_25
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 661
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bbb3427bc259e60800000000000000
+      internalID: 7968324280800492329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_26
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 649
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29ebe91384166400800000000000000
+      internalID: 316963377084361003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_27
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 661
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7530841cf7daf30800000000000000
+      internalID: 4588464063473997766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_28
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 667
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db785f849dbea1a0800000000000000
+      internalID: -6796286341897749552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_29
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 645
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab6fee416b38cc90800000000000000
+      internalID: -7149399119328482386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_30
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 659
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9939d1ab44b5a8330800000000000000
+      internalID: 3713881193458799513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_31
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 653
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e226c2ebecff820800000000000000
+      internalID: 2954307196762074691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_32
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 675
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f589ec3d65166f10800000000000000
+      internalID: 2262519421717808626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_33
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 667
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20bfa5d866adf4800800000000000000
+      internalID: 598937409456634626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_34
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 663
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec09f00366d6c1a90800000000000000
+      internalID: -7341873006860332850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_35
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 677
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b466ddb09d94bc560800000000000000
+      internalID: 7335037614658774603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_36
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 646
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d48de99a34ae4230800000000000000
+      internalID: 3625015321677366484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_37
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 552
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd21434cc11404b0800000000000000
+      internalID: -5475231677976334890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_38
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 280
+        width: 283
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaac08f30b3b05ad0800000000000000
+      internalID: -2715473005743387990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_39
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 586
+        width: 54
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae3cee4768c58490800000000000000
+      internalID: -7744563638162407767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_40
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 553
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250077f075ebf9210800000000000000
+      internalID: 1342000495110586450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_41
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 546
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb04172c6ec29760800000000000000
+      internalID: 7463254496413748148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_42
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 538
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f30be6036979d7f0800000000000000
+      internalID: -587304810170350599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_43
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 516
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e311ca350da4cd0800000000000000
+      internalID: -2573015179301143039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_44
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 513
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e59286969a1a500800000000000000
+      internalID: 405791711624257043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_45
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 520
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545ae3d3288f2f890800000000000000
+      internalID: -7425599597323573947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_46
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 488
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569b5191296899390800000000000000
+      internalID: -7811064116653213339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_47
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 353
+        width: 99
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0492000608b7610800000000000000
+      internalID: 1620029640777744546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_48
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 445
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6b6600724f42460800000000000000
+      internalID: 7216160951302010571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_49
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 440
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed3295489fecc380800000000000000
+      internalID: -8949514922210738719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_50
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 355
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1755de31d5697f50800000000000000
+      internalID: 6879641855161882394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_51
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 337
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88aefded4895a37b0800000000000000
+      internalID: -5243780388909749624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_52
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 305
+        width: 46
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901304c65fca1fcb0800000000000000
+      internalID: -4831890755108720375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_53
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 321
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b044ce1b419ce9ab0800000000000000
+      internalID: -4999337445613091829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_54
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 325
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27912176c8b2fbe0800000000000000
+      internalID: -1444889367991445716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_55
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 289
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de0812e7b726f900800000000000000
+      internalID: 717804861337898713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_56
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 291
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ddf12df05e6ddc40800000000000000
+      internalID: 5538704410858880472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_57
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 239
+        width: 78
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984fe882df855f0f0800000000000000
+      internalID: -1083862290982308727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_58
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 267
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb8e42d4ab734560800000000000000
+      internalID: 7296811769103551452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_59
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 246
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1630afe798e9fcc40800000000000000
+      internalID: 5534816780439651169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_60
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 210
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14200694aad245f0800000000000000
+      internalID: -773815785528220644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_61
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 230
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df7e6b3f5f195580800000000000000
+      internalID: -8837998299858436143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_62
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 210
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822f6b07dd63d09d0800000000000000
+      internalID: -2806526668075240920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_63
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 154
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2006363233fc6c0800000000000000
+      internalID: -4121018906936606027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_64
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 59
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc88957122dab980800000000000000
+      internalID: -8522268303696556857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_65
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 57
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9a2d26656710930800000000000000
+      internalID: 4107694448535841185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_66
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 59
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa05e11d465fb1a0800000000000000
+      internalID: -6791614824038724870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_67
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 47
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81384abbe5c3b2f0800000000000000
+      internalID: -958204679466503797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_68
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 31
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8af62a493f1cc30800000000000000
+      internalID: 4378048132486768838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_69
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 33
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1dac6f00039f2f0800000000000000
+      internalID: -938666266631417382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_70
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 31
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28293bbaf938950f0800000000000000
+      internalID: -1127725509875887486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terra_P1_71
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 15
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf005edf5c6ecaaf0800000000000000
+      internalID: -383678130190745349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Terra_P1_0: 926582920189331189
+      Terra_P1_1: -1115430058754287818
+      Terra_P1_10: 2424956420840959531
+      Terra_P1_11: 6507992310634775877
+      Terra_P1_12: -7591938553149176931
+      Terra_P1_13: -8763954206219257112
+      Terra_P1_14: 5176208811702798115
+      Terra_P1_15: -8356374451741323954
+      Terra_P1_16: -3738262262356351573
+      Terra_P1_17: 7973813907581249196
+      Terra_P1_18: -1903325823438684946
+      Terra_P1_19: 6883066667499945675
+      Terra_P1_2: -4349921857443965581
+      Terra_P1_20: 284349296038349843
+      Terra_P1_21: 2896320068359922050
+      Terra_P1_22: 1088132609214418546
+      Terra_P1_23: 3833806655109918498
+      Terra_P1_24: 4174150581430040474
+      Terra_P1_25: 7968324280800492329
+      Terra_P1_26: 316963377084361003
+      Terra_P1_27: 4588464063473997766
+      Terra_P1_28: -6796286341897749552
+      Terra_P1_29: -7149399119328482386
+      Terra_P1_3: -2116175849045598077
+      Terra_P1_30: 3713881193458799513
+      Terra_P1_31: 2954307196762074691
+      Terra_P1_32: 2262519421717808626
+      Terra_P1_33: 598937409456634626
+      Terra_P1_34: -7341873006860332850
+      Terra_P1_35: 7335037614658774603
+      Terra_P1_36: 3625015321677366484
+      Terra_P1_37: -5475231677976334890
+      Terra_P1_38: -2715473005743387990
+      Terra_P1_39: -7744563638162407767
+      Terra_P1_4: -4512766600558971387
+      Terra_P1_40: 1342000495110586450
+      Terra_P1_41: 7463254496413748148
+      Terra_P1_42: -587304810170350599
+      Terra_P1_43: -2573015179301143039
+      Terra_P1_44: 405791711624257043
+      Terra_P1_45: -7425599597323573947
+      Terra_P1_46: -7811064116653213339
+      Terra_P1_47: 1620029640777744546
+      Terra_P1_48: 7216160951302010571
+      Terra_P1_49: -8949514922210738719
+      Terra_P1_5: 6270280745620241281
+      Terra_P1_50: 6879641855161882394
+      Terra_P1_51: -5243780388909749624
+      Terra_P1_52: -4831890755108720375
+      Terra_P1_53: -4999337445613091829
+      Terra_P1_54: -1444889367991445716
+      Terra_P1_55: 717804861337898713
+      Terra_P1_56: 5538704410858880472
+      Terra_P1_57: -1083862290982308727
+      Terra_P1_58: 7296811769103551452
+      Terra_P1_59: 5534816780439651169
+      Terra_P1_6: -1740632890873255553
+      Terra_P1_60: -773815785528220644
+      Terra_P1_61: -8837998299858436143
+      Terra_P1_62: -2806526668075240920
+      Terra_P1_63: -4121018906936606027
+      Terra_P1_64: -8522268303696556857
+      Terra_P1_65: 4107694448535841185
+      Terra_P1_66: -6791614824038724870
+      Terra_P1_67: -958204679466503797
+      Terra_P1_68: 4378048132486768838
+      Terra_P1_69: -938666266631417382
+      Terra_P1_7: 5240532527326948855
+      Terra_P1_70: -1127725509875887486
+      Terra_P1_71: -383678130190745349
+      Terra_P1_8: -875409075006767208
+      Terra_P1_9: -462220843827365917
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
