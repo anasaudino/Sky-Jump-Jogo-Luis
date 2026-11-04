@@ -69,6 +69,8 @@ namespace SkyJump.Core
             player.transform.position = new Vector3(0f, baseY + 1.5f, 0f);
             player.SetActiveControl(true);
             SetState(GameState.Playing);
+            AudioManager.SetMusicDucked(false);
+            AudioManager.PlayMusic(AudioManager.WorldMusic(0));
         }
 
         void Update()
@@ -103,6 +105,7 @@ namespace SkyJump.Core
             if (State != GameState.Playing) return;
             for (int i = previous; i < index; i++) score.AddBonus(level.GetWorld(i).completionBonus);
             AudioManager.Play(Sfx.WorldChange);
+            AudioManager.PlayMusic(AudioManager.WorldMusic(index));
             PixelParticles.Burst(player.transform.position, level.GetWorld(index).themeColor, 24, 5f);
             ui.ShowWorldBanner(index, level.GetWorld(index));
         }
@@ -126,6 +129,7 @@ namespace SkyJump.Core
         IEnumerator GameOverRoutine()
         {
             SetState(GameState.GameOver);
+            AudioManager.StopMusic();
             player.SetActiveControl(false);
             spawner.Stop();
             cameraController.SetFollowing(false);
@@ -139,6 +143,7 @@ namespace SkyJump.Core
         {
             if (State != GameState.Playing) return;
             SetState(GameState.Victory);
+            AudioManager.StopMusic();
             score.AddBonus(level.GetWorld(level.WorldCount - 1).completionBonus);
             score.AddBonus(lives.Lives * bonusPerRemainingLife);
             player.SetActiveControl(false);
@@ -155,12 +160,14 @@ namespace SkyJump.Core
             {
                 Time.timeScale = 0f;
                 SetState(GameState.Paused);
+                AudioManager.SetMusicDucked(true);
                 ui.ShowPause(true);
             }
             else if (State == GameState.Paused)
             {
                 Time.timeScale = 1f;
                 SetState(GameState.Playing);
+                AudioManager.SetMusicDucked(false);
                 ui.ShowPause(false);
             }
         }

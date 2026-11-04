@@ -1,4 +1,5 @@
 using System.Collections;
+using SkyJump.Audio;
 using SkyJump.Core;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -20,6 +21,8 @@ namespace SkyJump.UI
         void Start()
         {
             Time.timeScale = 1f;
+            AudioManager.SetMusicDucked(false);
+            AudioManager.PlayMusic(Music.Menu);
             SetGroup(creditsPanel, false, 0f);
             SetGroup(mainGroup, true, 1f);
             int best = ScoreManager.BestScore;

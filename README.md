@@ -30,6 +30,15 @@ O pulo é automático ao cair sobre uma plataforma.
 - **Fim:** plataforma de chegada no topo do Paraíso → tela de vitória. Ambas as telas finais mostram a pontuação
   e os botões **Jogar Novamente** e **Voltar ao Início**.
 
+## Áudio
+
+Todo o som é gerado por código no estilo 8 bits, sem arquivos de áudio:
+
+- **Música:** uma trilha em loop para o menu e uma para cada mundo, trocadas com crossfade ao mudar de mundo.
+  Fica mais baixa durante a pausa e some com fade na vitória e na derrota.
+- **Efeitos:** pulo, quebra de plataforma, perda de vida, troca de mundo, vitória, derrota e cliques.
+- Volumes ajustáveis no componente `AudioManager` (`masterVolume`, `musicVolume`).
+
 ## Estrutura
 
 ```
@@ -44,7 +53,7 @@ Assets/_SkyJump/
     Platforms/  Platform (estática, móvel, quebradiça, resgate, chegada), PlatformSpawner (geração + pooling)
     World/      LevelManager (mundos/progresso), CameraController, BackgroundController, WorldData
     UI/         UIManager (HUD e painéis), MainMenuController, fonte pixel, botões, fade, layout responsivo
-    Audio/      AudioManager (efeitos sonoros chiptune gerados por código)
+    Audio/      AudioManager (efeitos e música), ChiptuneComposer (trilhas chiptune geradas por código)
     FX/         Partículas pixeladas
     Debug/      AutoPilot (ferramenta de teste, não usada nas cenas)
   Editor/       SkyJumpBuilder (menu "Sky Jump > Construir Projeto"), SkyJumpCapture (capturas de teste)

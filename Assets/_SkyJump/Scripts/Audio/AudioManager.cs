@@ -27,8 +27,18 @@ namespace SkyJump.Audio
         static AudioManager instance;
 
         [Range(0f, 1f)] [SerializeField] float masterVolume = 0.35f;
+        [Range(0f, 1f)] [SerializeField] float musicVolume = 0.22f;
+        [Tooltip("Volume relativo da música durante a pausa.")]
+        [Range(0f, 1f)] [SerializeField] float pausedMusicFactor = 0.35f;
+        [SerializeField] float musicFadeTime = 1.2f;
 
         readonly Dictionary<Sfx, AudioClip> clips = new Dictionary<Sfx, AudioClip>();
+        readonly Dictionary<Music, AudioClip> musicClips = new Dictionary<Music, AudioClip>();
+        readonly AudioSource[] musicSources = new AudioSource[2];
+        readonly float[] musicTargets = new float[2];
+        int activeMusic;
+        Music currentMusic = Music.None;
+        bool musicDucked;
         AudioSource source;
 
         public static bool Muted
@@ -57,14 +67,97 @@ namespace SkyJump.Audio
             Instance.PlayInternal(sfx, volume);
         }
 
+        /// <summary>Troca a música de fundo com crossfade. Não reinicia se a trilha já estiver tocando.</summary>
+        public static void PlayMusic(Music music)
+        {
+            if (!Application.isPlaying) return;
+            Instance.PlayMusicInternal(music);
+        }
+
+        /// <summary>Encerra a música com fade-out.</summary>
+        public static void StopMusic() => PlayMusic(Music.None);
+
+        /// <summary>Abaixa a música (pausa) ou volta ao volume normal.</summary>
+        public static void SetMusicDucked(bool ducked)
+        {
+            if (!Application.isPlaying) return;
+            Instance.musicDucked = ducked;
+        }
+
+        /// <summary>Trilha correspondente ao mundo (0 = Subterrâneo ... 3 = Paraíso).</summary>
+        public static Music WorldMusic(int worldIndex) => (Music)((int)Music.Subterraneo + Mathf.Clamp(worldIndex, 0, 3));
+
+        public static Music CurrentMusic => instance != null ? instance.currentMusic : Music.None;
+
         void Awake()
         {
             if (instance != null && instance != this) { Destroy(gameObject); return; }
             instance = this;
             source = gameObject.AddComponent<AudioSource>();
             source.playOnAwake = false;
+            for (int i = 0; i < musicSources.Length; i++)
+            {
+                var m = gameObject.AddComponent<AudioSource>();
+                m.playOnAwake = false;
+                m.loop = true;
+                m.volume = 0f;
+                musicSources[i] = m;
+            }
             AudioListener.volume = Muted ? 0f : 1f;
             Build();
+            StartCoroutine(PrepareMusic());
+        }
+
+        /// <summary>Gera as trilhas uma por quadro para evitar travadas na troca de mundo.</summary>
+        System.Collections.IEnumerator PrepareMusic()
+        {
+            yield return null;
+            for (var m = Music.Menu; m <= Music.Paraiso; m++)
+            {
+                GetMusicClip(m);
+                yield return null;
+            }
+        }
+
+        AudioClip GetMusicClip(Music music)
+        {
+            if (!musicClips.TryGetValue(music, out var clip))
+            {
+                clip = ChiptuneComposer.Build(music);
+                musicClips[music] = clip;
+            }
+            return clip;
+        }
+
+        void PlayMusicInternal(Music music)
+        {
+            if (music == currentMusic) return;
+            currentMusic = music;
+            musicTargets[activeMusic] = 0f; // a trilha atual sai em fade
+            if (music == Music.None) return;
+
+            var clip = GetMusicClip(music);
+            if (clip == null) return;
+            activeMusic = 1 - activeMusic;
+            var src = musicSources[activeMusic];
+            src.clip = clip;
+            src.volume = 0f;
+            src.Play();
+            musicTargets[activeMusic] = 1f;
+        }
+
+        void Update()
+        {
+            float level = musicVolume * (musicDucked ? pausedMusicFactor : 1f);
+            float rate = musicVolume / Mathf.Max(0.05f, musicFadeTime) * Time.unscaledDeltaTime;
+            for (int i = 0; i < musicSources.Length; i++)
+            {
+                var src = musicSources[i];
+                if (src == null) continue;
+                float target = musicTargets[i] * level;
+                src.volume = Mathf.MoveTowards(src.volume, target, rate);
+                if (musicTargets[i] <= 0f && src.volume <= 0f && src.isPlaying) src.Stop();
+            }
         }
 
         void PlayInternal(Sfx sfx, float volume)
