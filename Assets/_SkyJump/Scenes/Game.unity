@@ -3671,6 +3671,60 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!1 &1243827183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1243827185}
+  - component: {fileID: 1243827184}
+  m_Layer: 0
+  m_Name: Hazards
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1243827184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243827183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f046ee0252d3ee46bf46f916a063b73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SkyJump.Hazards.HazardSpawner
+  level: {fileID: 1880053811}
+  player: {fileID: 344778496}
+  cameraController: {fileID: 48936276}
+  score: {fileID: 1880053813}
+  startGrace: 10
+  goalGrace: 8
+  warningTime: 0.9
+  flyerSpeed: 3.6
+  fallSpeed: 8
+  stompBonus: 50
+--- !u!4 &1243827185
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243827183}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1251901469
 GameObject:
   m_ObjectHideFlags: 0
@@ -4188,7 +4242,6 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 1
-      m_Priority: 0
     - m_Name: Look
       m_Type: 0
       m_ExpectedControlType: Vector2
@@ -4197,7 +4250,6 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 1
-      m_Priority: 0
     - m_Name: Fire
       m_Type: 1
       m_ExpectedControlType: Button
@@ -4206,7 +4258,6 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-      m_Priority: 0
     m_Bindings:
     - m_Name: 
       m_Id: 978bfe49-cc26-4a3d-ab7b-7d7a29327403
@@ -4380,7 +4431,6 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-      m_Priority: 0
     - m_Name: Submit
       m_Type: 1
       m_ExpectedControlType: Button
@@ -4389,7 +4439,6 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-      m_Priority: 0
     - m_Name: Cancel
       m_Type: 1
       m_ExpectedControlType: Button
@@ -4398,7 +4447,6 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-      m_Priority: 0
     - m_Name: Point
       m_Type: 2
       m_ExpectedControlType: Vector2
@@ -4407,7 +4455,6 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 1
-      m_Priority: 0
     - m_Name: Click
       m_Type: 2
       m_ExpectedControlType: Button
@@ -4416,7 +4463,6 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 1
-      m_Priority: 0
     - m_Name: ScrollWheel
       m_Type: 2
       m_ExpectedControlType: Vector2
@@ -4425,7 +4471,6 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-      m_Priority: 0
     - m_Name: MiddleClick
       m_Type: 2
       m_ExpectedControlType: Button
@@ -4434,7 +4479,6 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-      m_Priority: 0
     - m_Name: RightClick
       m_Type: 2
       m_ExpectedControlType: Button
@@ -4443,7 +4487,6 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-      m_Priority: 0
     - m_Name: TrackedDevicePosition
       m_Type: 2
       m_ExpectedControlType: Vector3
@@ -4452,7 +4495,6 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-      m_Priority: 0
     - m_Name: TrackedDeviceOrientation
       m_Type: 2
       m_ExpectedControlType: Quaternion
@@ -4461,7 +4503,6 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-      m_Priority: 0
     m_Bindings:
     - m_Name: Gamepad
       m_Id: 809f371f-c5e2-4e7a-83a1-d867598f40dd
@@ -6396,6 +6437,7 @@ MonoBehaviour:
   score: {fileID: 1880053813}
   lives: {fileID: 1880053812}
   ui: {fileID: 1772936896}
+  hazards: {fileID: 1243827184}
   fallMargin: 0.8
   bonusPerRemainingLife: 500
   gameOverDelay: 0.8
@@ -7533,3 +7575,4 @@ SceneRoots:
   - {fileID: 1827921034}
   - {fileID: 1876328403}
   - {fileID: 1772936901}
+  - {fileID: 1243827185}

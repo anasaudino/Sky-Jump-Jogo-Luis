@@ -11,7 +11,10 @@ namespace SkyJump.Audio
         WorldChange,
         Victory,
         Defeat,
-        Break
+        Break,
+        Hit,
+        Stomp,
+        Warning
     }
 
     /// <summary>
@@ -175,6 +178,9 @@ namespace SkyJump.Audio
             clips[Sfx.WorldChange] = Tone("world", new[] { 523f, 659f, 784f, 1047f }, 0.09f, 0.5f, 0.25f);
             clips[Sfx.Victory] = Tone("victory", new[] { 523f, 659f, 784f, 1047f, 784f, 1047f, 1319f }, 0.12f, 0.5f, 0.25f);
             clips[Sfx.Defeat] = Tone("defeat", new[] { 392f, 330f, 262f, 196f }, 0.2f, 0.5f, 0.25f);
+            clips[Sfx.Hit] = Sweep("hit", 300f, 90f, 0.22f, 0.5f);
+            clips[Sfx.Stomp] = Tone("stomp", new[] { 660f, 990f }, 0.06f, 0.25f, 0.4f);
+            clips[Sfx.Warning] = Tone("warning", new[] { 1320f, 1760f }, 0.05f, 0.5f, 0.6f);
         }
 
         static float Square(float phase, float duty) => (phase % 1f) < duty ? 1f : -1f;

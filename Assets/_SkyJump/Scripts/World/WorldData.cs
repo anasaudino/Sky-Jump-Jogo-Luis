@@ -3,6 +3,12 @@ using UnityEngine;
 
 namespace SkyJump.World
 {
+    /// <summary>Visual dos inimigos voadores.</summary>
+    public enum FlyerStyle { Bird, Bat }
+
+    /// <summary>Visual dos objetos que caem do céu.</summary>
+    public enum FallingStyle { Rock, Ice, Star }
+
     /// <summary>Visual de uma plataforma: sprite e a área realmente visível (sem transparência).</summary>
     [Serializable]
     public class PlatformSkin
@@ -51,7 +57,21 @@ namespace SkyJump.World
         [Range(0, 1)] public float crumbleChanceStart;
         [Range(0, 1)] public float crumbleChanceEnd;
 
+        [Header("Perigos (inimigos e objetos que caem)")]
+        [Tooltip("Intervalo em segundos entre perigos no início e no fim do mundo. (0, 0) = sem perigos.")]
+        public Vector2 hazardInterval = Vector2.zero;
+        [Tooltip("Fração dos perigos que são voadores (o resto cai do céu).")]
+        [Range(0, 1)] public float flyerShare = 0.5f;
+        [Tooltip("Multiplicador de velocidade dos perigos.")]
+        public float hazardSpeed = 1f;
+        [Tooltip("Máximo de perigos na tela ao mesmo tempo.")]
+        public int maxHazards = 2;
+        public FlyerStyle flyerStyle = FlyerStyle.Bird;
+        public Color flyerColor = Color.white;
+        public FallingStyle fallingStyle = FallingStyle.Rock;
+
         public Vector2 GapAt(float t) => Vector2.Lerp(gapStart, gapEnd, t);
+        public float HazardIntervalAt(float t) => Mathf.Lerp(hazardInterval.x, hazardInterval.y, t);
         public float MovingChanceAt(float t) => Mathf.Lerp(movingChanceStart, movingChanceEnd, t);
         public float CrumbleChanceAt(float t) => Mathf.Lerp(crumbleChanceStart, crumbleChanceEnd, t);
 

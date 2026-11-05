@@ -3,6 +3,7 @@ using System.Collections;
 using SkyJump.Audio;
 using SkyJump.CameraSystem;
 using SkyJump.FX;
+using SkyJump.Hazards;
 using SkyJump.Platforms;
 using SkyJump.Player;
 using SkyJump.UI;
@@ -32,6 +33,7 @@ namespace SkyJump.Core
         [SerializeField] ScoreManager score;
         [SerializeField] LifeManager lives;
         [SerializeField] UIManager ui;
+        [SerializeField] HazardSpawner hazards;
 
         [Header("Regras")]
         [Tooltip("Quanto abaixo da borda inferior da câmera o jogador pode cair antes de perder vida.")]
@@ -41,6 +43,14 @@ namespace SkyJump.Core
 
         public GameState State { get; private set; } = GameState.MainMenu;
         public event Action<GameState> StateChanged;
+
+        void Awake()
+        {
+            // Cenas antigas não têm o gerador de perigos: cria e conecta por código.
+            if (hazards == null) hazards = FindAnyObjectByType<HazardSpawner>();
+            if (hazards == null) hazards = gameObject.AddComponent<HazardSpawner>();
+            hazards.Init(level, player, cameraController, score);
+        }
 
         void OnEnable()
         {
@@ -65,6 +75,7 @@ namespace SkyJump.Core
             cameraController.ResetTo(baseY);
             cameraController.MaxY = level.GoalHeight + 2f;
             spawner.Begin();
+            hazards.Begin();
 
             player.transform.position = new Vector3(0f, baseY + 1.5f, 0f);
             player.SetActiveControl(true);
@@ -116,6 +127,7 @@ namespace SkyJump.Core
             AudioManager.Play(Sfx.LoseLife);
             ui.FlashDamage();
 
+            hazards.ClearAll();
             if (remaining <= 0)
             {
                 StartCoroutine(GameOverRoutine());
@@ -132,6 +144,7 @@ namespace SkyJump.Core
             AudioManager.StopMusic();
             player.SetActiveControl(false);
             spawner.Stop();
+            hazards.Stop();
             cameraController.SetFollowing(false);
             yield return new WaitForSeconds(gameOverDelay);
             bool record = score.SaveBest();
@@ -148,6 +161,7 @@ namespace SkyJump.Core
             score.AddBonus(lives.Lives * bonusPerRemainingLife);
             player.SetActiveControl(false);
             spawner.Stop();
+            hazards.Stop();
             PixelParticles.Burst(player.transform.position, new Color(1f, 0.9f, 0.4f), 40, 6f);
             bool record = score.SaveBest();
             AudioManager.Play(Sfx.Victory);

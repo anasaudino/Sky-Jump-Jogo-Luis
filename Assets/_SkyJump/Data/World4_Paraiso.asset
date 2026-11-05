@@ -52,3 +52,10 @@ MonoBehaviour:
   maxMoveRange: 2.5
   crumbleChanceStart: 0.18
   crumbleChanceEnd: 0.28
+  hazardInterval: {x: 3.5, y: 2.6}
+  flyerShare: 0.5
+  hazardSpeed: 1.3
+  maxHazards: 3
+  flyerStyle: 0
+  flyerColor: {r: 1, g: 0.82, b: 0.45, a: 1}
+  fallingStyle: 2

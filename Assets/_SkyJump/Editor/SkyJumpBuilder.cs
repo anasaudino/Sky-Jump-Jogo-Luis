@@ -2,6 +2,7 @@
 using System.IO;
 using SkyJump.CameraSystem;
 using SkyJump.Core;
+using SkyJump.Hazards;
 using SkyJump.Platforms;
 using SkyJump.Player;
 using SkyJump.UI;
@@ -295,7 +296,41 @@ namespace SkyJump.EditorTools
                 EditorUtility.SetDirty(w);
                 result[i] = w;
             }
+            ApplyHazardSettings(result);
             return result;
+        }
+
+        /// <summary>
+        /// Perigos de cada mundo: morcegos e pedras no Subterrâneo, pássaros e pedras na Terra,
+        /// gaivotas e gelo no Céu, pássaros dourados e estrelas no Paraíso — cada vez mais frequentes e rápidos.
+        /// </summary>
+        public static void ApplyHazardSettings(WorldData[] worlds)
+        {
+            var defs = new[]
+            {
+                new { interval = new Vector2(7.0f, 5.0f), share = 0.4f, speed = 0.9f, max = 1, flyer = FlyerStyle.Bat,
+                      color = new Color(0.55f, 0.36f, 0.7f), falling = FallingStyle.Rock },
+                new { interval = new Vector2(5.2f, 3.8f), share = 0.6f, speed = 1.0f, max = 2, flyer = FlyerStyle.Bird,
+                      color = new Color(0.66f, 0.4f, 0.24f), falling = FallingStyle.Rock },
+                new { interval = new Vector2(4.2f, 3.1f), share = 0.55f, speed = 1.15f, max = 2, flyer = FlyerStyle.Bird,
+                      color = new Color(0.93f, 0.95f, 1f), falling = FallingStyle.Ice },
+                new { interval = new Vector2(3.5f, 2.6f), share = 0.5f, speed = 1.3f, max = 3, flyer = FlyerStyle.Bird,
+                      color = new Color(1f, 0.82f, 0.45f), falling = FallingStyle.Star },
+            };
+            for (int i = 0; i < worlds.Length && i < defs.Length; i++)
+            {
+                var w = worlds[i];
+                if (w == null) continue;
+                var d = defs[i];
+                w.hazardInterval = d.interval;
+                w.flyerShare = d.share;
+                w.hazardSpeed = d.speed;
+                w.maxHazards = d.max;
+                w.flyerStyle = d.flyer;
+                w.flyerColor = d.color;
+                w.fallingStyle = d.falling;
+                EditorUtility.SetDirty(w);
+            }
         }
 
         static PhysicsMaterial2D CreatePhysicsMaterial()
@@ -496,6 +531,7 @@ namespace SkyJump.EditorTools
             var lives = systems.AddComponent<LifeManager>();
             var spawnerGo = new GameObject("Platforms");
             var spawner = spawnerGo.AddComponent<PlatformSpawner>();
+            var hazards = new GameObject("Hazards").AddComponent<HazardSpawner>();
 
             // Linha de chegada.
             var goal = new GameObject("Goal");
@@ -654,7 +690,8 @@ namespace SkyJump.EditorTools
                 .R("cameraController", camCtrl).R("goalObject", goal).Apply();
             new SO(goalZone).R("gameManager", gm).R("glow", beam.transform).Apply();
             new SO(gm).R("player", player).R("spawner", spawner).R("cameraController", camCtrl).R("level", level)
-                .R("score", score).R("lives", lives).R("ui", ui).Apply();
+                .R("score", score).R("lives", lives).R("ui", ui).R("hazards", hazards).Apply();
+            new SO(hazards).R("level", level).R("player", player).R("cameraController", camCtrl).R("score", score).Apply();
             new SO(ui).R("score", score).R("lives", lives).R("level", level)
                 .A("hearts", hearts).R("heartFull", heartFull).R("heartEmpty", heartEmpty)
                 .R("scoreText", scoreText).R("worldText", worldText).R("progressFill", fill).R("hud", hud)

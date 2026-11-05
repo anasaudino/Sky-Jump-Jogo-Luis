@@ -31,6 +31,14 @@ namespace SkyJump.Player
         [SerializeField] float squashAmount = 0.22f;
         [SerializeField] float squashRecover = 10f;
 
+        [Header("Perigos")]
+        [Tooltip("Velocidade do empurrão ao ser atingido (x = lateral, y = para baixo).")]
+        [SerializeField] Vector2 knockback = new Vector2(6.5f, 6f);
+        [Tooltip("Tempo sem controle logo após ser atingido.")]
+        [SerializeField] float stunTime = 0.3f;
+        [Tooltip("Tempo piscando, imune a novos perigos.")]
+        [SerializeField] float invulnerableTime = 1.5f;
+
         [Header("Toque")]
         [Tooltip("Fração superior da tela ignorada pelo toque (área do HUD/pausa).")]
         [SerializeField] float touchIgnoreTop = 0.14f;
@@ -41,6 +49,8 @@ namespace SkyJump.Player
         bool controlEnabled = true;
         float squash;
         float lastBounceTime = -1f;
+        float stunUntil = -1f;
+        float invulnerableUntil = -1f;
         Vector3 visualBaseScale = Vector3.one;
 
         public float JumpVelocity => jumpVelocity;
@@ -50,6 +60,7 @@ namespace SkyJump.Player
         public float Radius => circle != null ? circle.radius * transform.lossyScale.x : 0.45f;
         public Vector2 Velocity => body.linearVelocity;
         public bool ControlEnabled => controlEnabled;
+        public bool IsInvulnerable => !controlEnabled || Time.time < invulnerableUntil;
 
         /// <summary>Disparado sempre que o jogador quica numa plataforma.</summary>
         public event Action<Platform> Bounced;
@@ -67,8 +78,11 @@ namespace SkyJump.Player
 
         void Update()
         {
-            input = controlEnabled ? ReadInput() : 0f;
+            input = controlEnabled && Time.time >= stunUntil ? ReadInput() : 0f;
             UpdateVisual();
+            // Pisca enquanto está imune depois de ser atingido (o respawn controla o próprio piscar).
+            if (controlEnabled && spriteRenderer != null)
+                spriteRenderer.enabled = Time.time >= invulnerableUntil || Mathf.Repeat(Time.time, 0.14f) < 0.09f;
         }
 
         /// <summary>Entrada simulada (usada pelo piloto automático de testes). Null = usa os dispositivos.</summary>
@@ -162,6 +176,24 @@ namespace SkyJump.Player
             Bounced?.Invoke(platform);
         }
 
+        /// <summary>
+        /// Atingido por um perigo: perde o impulso, é empurrado para baixo e para o lado oposto
+        /// e fica imune por um instante. Retorna false se já estava imune.
+        /// </summary>
+        public bool TryHit(Vector2 from)
+        {
+            if (IsInvulnerable || !body.simulated) return false;
+            float dir = transform.position.x >= from.x ? 1f : -1f;
+            body.linearVelocity = new Vector2(dir * knockback.x, Mathf.Min(body.linearVelocity.y, -knockback.y));
+            stunUntil = Time.time + stunTime;
+            invulnerableUntil = Time.time + invulnerableTime;
+            squash = 1f;
+            return true;
+        }
+
+        /// <summary>Quique extra ao pisar num inimigo.</summary>
+        public void StompBounce() => Bounce(null);
+
         void UpdateVisual()
         {
             if (visual == null) return;
@@ -176,6 +208,8 @@ namespace SkyJump.Player
             controlEnabled = active;
             body.simulated = active;
             if (!active) body.linearVelocity = Vector2.zero;
+            invulnerableUntil = -1f;
+            if (spriteRenderer != null) spriteRenderer.enabled = true;
         }
 
         /// <summary>Reaparece no ponto seguro, piscando antes de voltar a cair.</summary>
@@ -206,6 +240,8 @@ namespace SkyJump.Player
             controlEnabled = true;
             body.simulated = true;
             body.linearVelocity = new Vector2(0f, -2f);
+            stunUntil = -1f;
+            invulnerableUntil = Time.time + 1f;
             onFinished?.Invoke();
         }
 
