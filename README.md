@@ -10,7 +10,8 @@ uma bola que pula sozinha nas plataformas e sobe por quatro mundos até a vitór
 
 1. Abra o projeto no Unity Hub (versão 6000.6.8f1).
 2. Abra a cena `Assets/_SkyJump/Scenes/MainMenu.unity` e aperte **Play**.
-3. Ou rode o executável gerado em `Builds/Windows/SkyJump.exe` (gerado por *File > Build Profiles*, pasta ignorada pelo git).
+3. Ou rode o executável `Builds/Sky Jump/Sky Jump.exe`, gerado pelo menu **Sky Jump > Gerar Build Windows**
+   (pasta ignorada pelo git). Para enviar a outras pessoas, compacte a pasta `Sky Jump` inteira.
 
 | Ação | Teclado | Gamepad | Celular |
 |---|---|---|---|
