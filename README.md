@@ -27,7 +27,8 @@ O pulo é automático ao cair sobre uma plataforma.
 - **Vidas:** 3 vidas para a partida inteira (não recarregam ao trocar de mundo). Ao cair, o jogador reaparece
   numa plataforma de resgate segura; com 0 vidas, tela de derrota.
 - **Perigos:** morcegos/pássaros atravessam a tela e pedras, gelo ou estrelas caem do céu (um aviso "!" pisca antes).
-  Encostar empurra o jogador para baixo; cair em cima de um voador o derruba e dá +50 pontos.
+  Encostar tira uma vida e empurra o jogador para baixo (depois ele pisca, imune, por 1,5 s);
+  cair em cima de um voador o derruba e dá +50 pontos.
   Frequência e velocidade por mundo ficam no `WorldData` (seção "Perigos").
 - **Pontuação:** 10 pontos por unidade de altura máxima alcançada (sem contagem duplicada),
   +250 por mundo novo alcançado e +500 por vida restante na vitória. O recorde fica salvo (PlayerPrefs).

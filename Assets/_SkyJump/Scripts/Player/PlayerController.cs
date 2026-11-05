@@ -177,7 +177,7 @@ namespace SkyJump.Player
         }
 
         /// <summary>
-        /// Atingido por um perigo: perde o impulso, é empurrado para baixo e para o lado oposto
+        /// Atingido por um perigo: perde o impulso (e uma vida, via GameManager), é empurrado para baixo e para o lado oposto
         /// e fica imune por um instante. Retorna false se já estava imune.
         /// </summary>
         public bool TryHit(Vector2 from)

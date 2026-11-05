@@ -11,7 +11,7 @@ namespace SkyJump.Hazards
 {
     /// <summary>
     /// Gera os perigos da subida conforme o mundo atual (frequência, tipo e velocidade vêm do WorldData).
-    /// Encostar num perigo empurra o jogador para baixo (pode fazê-lo cair); cair em cima de um voador
+    /// Encostar num perigo tira uma vida e empurra o jogador para baixo; cair em cima de um voador
     /// derrota o inimigo, dá um quique extra e pontos. Usa pool de objetos.
     /// </summary>
     public class HazardSpawner : MonoBehaviour
@@ -39,6 +39,9 @@ namespace SkyJump.Hazards
         bool running;
 
         public IReadOnlyList<Hazard> Active => active;
+
+        /// <summary>O jogador foi atingido por um perigo (o GameManager tira uma vida).</summary>
+        public event System.Action PlayerHit;
         public int StompBonus => stompBonus;
 
         /// <summary>Preenche as referências quando o componente é criado por código.</summary>
@@ -140,7 +143,7 @@ namespace SkyJump.Hazards
             }
 
             if (!p.TryHit(hp)) return;
-            AudioManager.Play(Sfx.Hit);
+            PlayerHit?.Invoke();
             PixelParticles.Burst(Vector2.Lerp(hp, p.transform.position, 0.5f), h.ParticleColor, 16, 5f);
             if (h.IsFlyer) h.MarkSpent();
             else Release(h);

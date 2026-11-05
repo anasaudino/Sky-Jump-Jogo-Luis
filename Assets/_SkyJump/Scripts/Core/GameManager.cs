@@ -56,12 +56,14 @@ namespace SkyJump.Core
         {
             if (level != null) level.WorldChanged += OnWorldChanged;
             if (player != null) player.Bounced += OnPlayerBounced;
+            if (hazards != null) hazards.PlayerHit += OnHazardHit;
         }
 
         void OnDisable()
         {
             if (level != null) level.WorldChanged -= OnWorldChanged;
             if (player != null) player.Bounced -= OnPlayerBounced;
+            if (hazards != null) hazards.PlayerHit -= OnHazardHit;
         }
 
         void Start() => StartNewGame();
@@ -136,6 +138,17 @@ namespace SkyJump.Core
 
             Vector2 respawn = spawner.CreateRescuePlatform();
             player.Respawn(respawn);
+        }
+
+        /// <summary>Atingido por inimigo/objeto: perde uma vida, mas continua onde está (empurrado e piscando).</summary>
+        void OnHazardHit()
+        {
+            if (State != GameState.Playing) return;
+            int remaining = lives.LoseLife();
+            AudioManager.Play(Sfx.Hit);
+            AudioManager.Play(Sfx.LoseLife, 0.6f);
+            ui.FlashDamage();
+            if (remaining <= 0) StartCoroutine(GameOverRoutine());
         }
 
         IEnumerator GameOverRoutine()
